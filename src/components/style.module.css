@@ -47,12 +47,16 @@ img {
 }
 
 .load_more {
-  width: 100px;
+  width: 200px;
   height: 30px;
-  border: 1px solid black;
-  border-radius: 2px;
   background-color: rgb(45, 45, 254);
   color: white;
+  position: absolute;
+  left: 43%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 .hidden {
@@ -66,4 +70,17 @@ img {
   left: 0;
   width: 150px;
   height: 150px;
+}
+
+.SearchForm__input {
+  width: 300px;
+  height: 20px;
+  margin-left: 68px;
+  text-align: center;
+}
+.SearchForm__button {
+  background-color: white;
+  position: absolute;
+  margin-right: 200px;
+  border: none;
 }

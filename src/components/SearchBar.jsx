@@ -1,6 +1,7 @@
 import { Component } from "react";
 import style from "./style.module.css";
 import PropTypes from "prop-types";
+import { Icon } from "@iconify/react";
 
 export class SearchBar extends Component {
   static propTypes = {
@@ -34,6 +35,14 @@ export class SearchBar extends Component {
     return (
       <div>
         <form className={style.search_form} onSubmit={this.handleFormSubmit}>
+          <button type="submit" className={style.SearchForm__button}>
+            <Icon
+              icon="icomoon-free:search"
+              color="gray"
+              width="20"
+              height="16"
+            />
+          </button>
           <input
             type="text"
             value={this.state.searchQuery}
@@ -43,9 +52,6 @@ export class SearchBar extends Component {
             autoComplete="off"
             name="searchQuery"
           />
-          <button type="submit" className={style.SearchForm__button}>
-            Search
-          </button>
         </form>
       </div>
     );
