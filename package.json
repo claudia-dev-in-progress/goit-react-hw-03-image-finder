@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://claudiapapp.github.io/goit-react-hw-03-imagefinder/",
+  "homepage": "https://claudiapapp.github.io/goit-react-hw-03-image-finder/",
   "dependencies": {
     "@iconify/react": "^4.1.1",
     "@testing-library/jest-dom": "^5.17.0",
